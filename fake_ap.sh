@@ -13,8 +13,8 @@ echo nameserver 127.0.0.1 > /etc/resolv.conf
 
 echo -e "-------------- setting wlan1 ip address and routing tables --------------\n"
 
-ifconfig wlan0 up 192.168.149.132 netmask 255.255.255.0
-route add -net 192.168.149.132 netmask 255.255.255.0 gw 192.168.1.1
+ifconfig wlan1 up 192.168.0.105 netmask 255.255.255.0
+route add -net 192.168.0.105 netmask 255.255.255.0 gw 192.168.1.1
 
 echo -e "-------------- starting dhcp server --------------\n\n"
 dhcpd
