@@ -14,3 +14,12 @@ This attack deppend on 4 steps:-
 
 
 sadasd
+
+<div id="example">
+    <span>Don’t get any big ideas / They’re not gonna happen / You paint yourself white / And fill up with noise / But there’ll be something missing</span>
+</div>
+<script>
+  $('#bigtext').bigtext({
+      minfontsize: 16 // Default is `null`
+  });
+</script>
