@@ -12,5 +12,17 @@ This attack deppend on 4 steps:-
 * Step 3: hacker makes victims connect to evil twin Wi-Fi
 * Step 4: hacker steals login details
 
+you can find more explaning on this attack in https://nordvpn.com/blog/evil-twin-attack/
 
-# How to run it
+
+# How To Run 
+first install your code(it run only on linux , i have build it on ubuntu).
+you need to install the index.html(it find in html folder) , in /var/www/html.
+after that you run the following command as system administrator(root):
+```sh
+./Evil_Twin_Attack.sh
+```
+
+
+
+
